@@ -1,0 +1,35 @@
+echo "# week3assignment" >> README.md
+
+git init
+
+git add README.md
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/Fpard/week3assignment.git
+
+git remote add week3assignment https://github.com/Fpard/week3assignment.git
+
+git push -u origin main
+
+
+
+Your CLI may prompt you with the following message:
+
+---------------------------------------------------------------------------------------------
+
+Please tell me who you are.
+
+Run
+
+     git config --global fpardieu@gmail.com
+
+     git config --global user.name Fpard
+
+
+git status 
+this command gives information on the current status of a directory 
+git remote -v  
+which shows the GitHub repository to which a directory is connected
